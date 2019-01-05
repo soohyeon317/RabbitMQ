@@ -19,7 +19,7 @@ public class DemoApplication {
         publisher.pub();
 
         Consumer consumer = new Consumer();
-        consumer.sub();
+        consumer.cons();
     }
 
 }
