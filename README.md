@@ -35,9 +35,9 @@ $>sudo rabbitmqctl set_user_tags rabbitmq administrator
   ㄴ참고: http://abh0518.net/tok/?p=397  
   ㄴ참고: https://www.rabbitmq.com/tutorials/tutorial-one-java.html
 
-- springboot+gradle 프로젝트의 jar 파일 생성  
+- springboot+gradle 프로젝트의 jar 파일 생성 => (미완료) 
   ㄴ참고: http://gusrb.tistory.com/71  
 $>gradle bootjar
   
-- jar 파일을 docker 컨테이너로 올리기  
+- jar 파일을 docker 컨테이너로 올리기 => (미완료) 
   ㄴ참고: https://www.youtube.com/watch?v=E8cdA6ORbSM
