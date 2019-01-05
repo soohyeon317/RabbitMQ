@@ -15,8 +15,8 @@ public class DemoApplication {
     public static void main(String[] args) throws InterruptedException, NoSuchAlgorithmException, KeyManagementException, TimeoutException, URISyntaxException, IOException {
         SpringApplication.run(DemoApplication.class, args);
 
-        Publisher publisher = new Publisher();
-        publisher.pub();
+        Producer producer = new Producer();
+        producer.prod();
 
         Consumer consumer = new Consumer();
         consumer.cons();

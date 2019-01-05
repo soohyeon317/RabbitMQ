@@ -6,10 +6,10 @@
 
 # 로직
 
-"Pubisher --> MQ1 --> Consumer --> MQ2"
+"Producer --> MQ1 --> Consumer --> MQ2"
 
-Publisher가 MessageQueue1에 메세지를 publish하고  
-Consumer가 RabbitMQ로부터 메세지를 subscribe해서 또다른 MessageQueue2에 publish
+Producer가 MessageQueue1에 메세지를 produce하고  
+Consumer가 RabbitMQ로부터 메세지를 consume해서 또다른 MessageQueue2에 produce
 
 
 # 참고
@@ -31,7 +31,7 @@ $>sudo rabbitmqctl add_user rabbitmq password
 $>sudo rabbitmqctl set_user_tags rabbitmq administrator
 
 
-- rabbitmq publish/subscribe 사용  
+- rabbitmq 메세지 produce/consume 하기  
   ㄴ참고: http://abh0518.net/tok/?p=397  
   ㄴ참고: https://www.rabbitmq.com/tutorials/tutorial-one-java.html
 
