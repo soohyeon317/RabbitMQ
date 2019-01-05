@@ -12,8 +12,8 @@ import java.util.concurrent.TimeoutException;
 
 @Data
 @Builder
-class Consumer {
-    void cons() throws NoSuchAlgorithmException, KeyManagementException, URISyntaxException, IOException, TimeoutException {
+class Subscriber {
+    void sub() throws NoSuchAlgorithmException, KeyManagementException, URISyntaxException, IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setUri("amqp://guest:guest@192.168.220.129");
         factory.setConnectionTimeout(300000);

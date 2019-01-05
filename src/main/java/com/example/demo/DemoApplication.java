@@ -15,11 +15,11 @@ public class DemoApplication {
     public static void main(String[] args) throws InterruptedException, NoSuchAlgorithmException, KeyManagementException, TimeoutException, URISyntaxException, IOException {
         SpringApplication.run(DemoApplication.class, args);
 
-        Producer producer = new Producer();
-        producer.prod();
+        Publisher publisher = new Publisher();
+        publisher.pub();
 
-        Consumer consumer = new Consumer();
-        consumer.cons();
+        Subscriber subscriber = new Subscriber();
+        subscriber.sub();
     }
 
 }
